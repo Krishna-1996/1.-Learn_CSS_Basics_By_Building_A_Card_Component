@@ -23,7 +23,7 @@ body {
 }
 .card {
     background-color: rgb(188, 241, 241);
-    border: 10px solid rgb(176, 234, 241);
+    border: 5px solid rgb(59, 215, 233);
     padding: 10px;
     border-radius: 12px;
 }
@@ -33,23 +33,24 @@ body {
     border: 3px solid #abcee4 ;
     border-radius: 8px;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
     color: #07121f;
 
 }
 .bg {
-    background-image: url("Water_Image_400x400.png");
+    background-image: url("Kashmir_imge_1024x576.jpg");
     border: 2px solid rgb(107, 115, 187);
     border-radius: 12px;
     width: 100%;   
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
 }
 .name {
     font-size: 24px;
     font-weight: 600;
-    margin-top: 16px;
+    margin-top: 1px;
     padding: 10px;
 }
 
@@ -59,14 +60,16 @@ p {
     font-weight: 600;
     color: #0a0a0a;
     line-height: 150%;
-    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    
 
 }
 
 button {
     border: none;
     padding: 12px 24px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: block;
     border-radius: 12px;
     font-weight: 600;
@@ -88,16 +91,23 @@ button:focus,button:hover {
 .footer {
     border: 1px solid #0a0a0a;
     background-color: rgb(188, 241, 241);
-    border: 5px solid rgb(176, 234, 241);
+    border: 5px solid rgb(76, 208, 223);
     margin-top: 12px;
     padding: 8px;
+    border-radius: 12px;
 }
 .footer1 {
     font-weight: 500;
+    margin-top: 12px;
+    
+    
 
 }
 .footer2 {
     font-weight: 800;
+    margin: auto;
+    font-style: italic;
+    
     
 }
 
