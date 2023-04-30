@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+
+img {
+    width: 100%;
+    border: 1px solid rgb(46, 195, 214);
+    border-radius: 12px;
+    height: 330px;
+    object-fit: cover;
+    
+    
+}
+
+body {
+    background-color: hsl(0, 0%, 0%);
+    font-family: "Raleway", sans-serif;
+}
+
+#container {
+    margin-top: 20vh;
+    margin: 0 auto;
+    max-width: 500px;
+    
+}
+.card {
+    background-color: rgb(188, 241, 241);
+    border: 10px solid rgb(176, 234, 241);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.tag {
+    padding: 4px 8px;
+    border: 3px solid #abcee4 ;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #07121f;
+
+}
+.bg {
+    background-image: url("Water_Image_400x400.png");
+    border: 2px solid rgb(107, 115, 187);
+    border-radius: 12px;
+    width: 100%;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 600;
+    color: #0a0a0a;
+    line-height: 150%;
+    padding: 10px;
+
+}
+
+button {
+    border: none;
+    padding: 12px 24px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(2, 2, 2);
+    background-color: rgb(127, 206, 238);
+    cursor: pointer;
+}
+
+.card_details {
+    padding: 16px 8px 8px 8px;
+}
+button:focus,button:hover {
+    background-color: rgb(25, 0, 247);
+    color: rgb(255, 255, 255);
+
+}
+
+.footer {
+    border: 1px solid #0a0a0a;
+    background-color: rgb(188, 241, 241);
+    border: 5px solid rgb(176, 234, 241);
+    margin-top: 12px;
+    padding: 8px;
+}
+.footer1 {
+    font-weight: 500;
+
+}
+.footer2 {
+    font-weight: 800;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
